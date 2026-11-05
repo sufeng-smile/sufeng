@@ -12,3 +12,9 @@ This repository is maintained with the GitHub CLI (\gh\) and git on Windows.
 ## Purpose
 
 Smoke-test target for verifying the \gh\ + git push chain (commit -> push -> PR).
+## Verification checklist
+
+- [x] git push via gh credential helper
+- [x] gh pr create
+- [x] gh issue create
+
